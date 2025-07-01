@@ -1,0 +1,50 @@
+* {
+  background: #000000;
+  foreground: #ffffff;
+  border: 0;
+  spacing: 5;
+  font: "JetBrainsMono Nerd Font 10";
+}
+
+window {
+  transparency: "real";
+  location: center;
+  anchor: center;
+  fullscreen: false;
+  width: 30%;
+  padding: 10;
+  border: 0;
+}
+
+mainbox {
+  children: [prompt, entry, listview];
+}
+
+listview {
+  lines: 8;
+  fixed-height: true;
+  scrollbar: false;
+  padding: 5;
+}
+
+element {
+  padding: 4;
+  text-color: @foreground;
+  background-color: transparent;
+}
+
+element selected {
+  background-color: #222222;
+  text-color: #ffffff;
+}
+
+entry {
+  padding: 6;
+  text-color: @foreground;
+  background-color: #111111;
+  placeholder: "Search...";
+}
+
+prompt {
+  padding: 4;
+}

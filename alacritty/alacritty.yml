@@ -1,0 +1,8 @@
+import:
+  - ~/.cache/wal/colors.yml
+
+font:
+  normal:
+    family: DejaVu Sans Mono
+    style: Book
+  size: 8.0

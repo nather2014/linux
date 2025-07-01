@@ -1,0 +1,53 @@
+* {
+  background: #000000;
+  background-alt: #000000;
+  foreground: #ffffff;
+  selected-normal-foreground: #ffffff;
+  selected-normal-background: #000000;
+  font: "JetBrainsMono Nerd Font 10";
+  border: 0;
+  spacing: 0;
+}
+
+window {
+  location: center;
+  anchor: center;
+  width: 30%;
+  padding: 0;
+  border: 0;
+  fullscreen: false;
+}
+
+mainbox {
+  children: [prompt, entry, listview];
+}
+
+listview {
+  lines: 10;
+  padding: 0;
+  border: 0;
+  scrollbar: false;
+}
+
+element {
+  padding: 4;
+  background-color: #000000;
+  text-color: #ffffff;
+}
+
+element selected {
+  background-color: #000000;
+  text-color: #ffffff;
+}
+
+entry {
+  padding: 6;
+  text-color: #ffffff;
+  background-color: #000000;
+  placeholder: "";
+}
+
+prompt {
+  padding: 0;
+  text-color: #ffffff;
+}

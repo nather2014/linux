@@ -1,0 +1,10 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    icon-theme: "Papirus";
+    font: "DejaVu Sans Mono 12";
+}
+
+//@theme "/home/akhil/.cache/wal/colors-rofi-dark.rasi"
+
+@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"

@@ -1,0 +1,6 @@
+[font]
+size = 7.0
+
+[font.normal]
+family = "DejaVu Sans Mono"
+style = "Book"
